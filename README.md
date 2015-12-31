@@ -1,5 +1,5 @@
 # ppmessage-mqtt
-It is a python mqtt server of PPMESSSAGE (https://www.ppmessage.com)
+It is a python mqtt server of PPMESSSAGE (http://www.ppmessage.com)
 
 ```
 from ppmessage import mqtt_server

@@ -1,3 +1,3 @@
 # ppmessage-mqtt
-It is a common mqtt broker of PPMESSSAGE (https://www.ppmessage.com)
+It is a python mqtt server of PPMESSSAGE (https://www.ppmessage.com)
 

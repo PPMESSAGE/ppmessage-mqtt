@@ -9,7 +9,7 @@
 
 from .ppmt import ppmt_main
 
-def mqtt_broker():
+def mqtt_server():
     ppmt_main()
     return
 

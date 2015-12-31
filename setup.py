@@ -13,13 +13,18 @@ import os
 
 setup(
     name = "ppmessage",
-    version = "1.0.0",
-    description = "mqtt broker lib of PPMESSAGE",
+    version = "1.0.1",
     author = "ppmessage.com",
     license = "http://www.apache.org/licenses/LICENSE-2.0",
     install_requires = ["tornado>=4.3"],
     packages = ["ppmessage"],
     author_email = 'dingguijin@gmail.com',
-    keywords = 'mqtt broker ppmessage',
     url = "https://www.ppmessage.com",
+    keywords = "mqtt server ppmessage",
+    description="A Python mqtt server, originally developed at PPMESSAGE.",
+    classifiers=[
+        'License :: OSI Approved :: Apache Software License',
+        'Programming Language :: Python :: 2.7',
+    ],
+
 )

@@ -1,6 +1,10 @@
 # ppmessage-mqtt
-It is a python mqtt server of PPMESSSAGE (http://www.ppmessage.com)
+Python mqtt server at PPMESSSAGE (http://www.ppmessage.com)
 
+# install
+pip install ppmessage-mqtt
+
+# test
 ```
 from ppmessage import mqtt_server
 from tornado.options import parse_command_line()

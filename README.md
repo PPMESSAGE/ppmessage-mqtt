@@ -3,9 +3,10 @@ It is a python mqtt server of PPMESSSAGE (https://www.ppmessage.com)
 
 ```
 from ppmessage import mqtt_server
-import tornado.options
+from tornado.options import parse_command_line()
 
 if __name__ == "__main__":
-    tornado.options.parse_command_line()
+    # initial the tornado options (logging used)
+    parse_command_line()
     mqtt_server()
 ```

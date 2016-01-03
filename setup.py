@@ -12,8 +12,8 @@ from distutils.core import setup, Extension
 import os
 
 setup(
-    name = "ppmessage",
-    version = "1.0.1",
+    name = "ppmessage-mqtt",
+    version = "1.0.3",
     author = "ppmessage.com",
     license = "http://www.apache.org/licenses/LICENSE-2.0",
     install_requires = ["tornado>=4.3"],

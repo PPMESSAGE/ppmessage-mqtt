@@ -7,7 +7,6 @@
 # All rights are reserved.
 #
 
-
 import sys
 import struct
 import threading

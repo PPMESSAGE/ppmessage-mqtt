@@ -13,3 +13,4 @@ def mqtt_server():
     ppmt_main()
     return
 
+__version__ = "1.0.3"

@@ -13,13 +13,13 @@ import os
 
 setup(
     name = "ppmessage-mqtt",
-    version = "1.0.3",
+    version = "1.0.5",
     author = "ppmessage.com",
+    author_email = 'dingguijin@gmail.com',
     license = "http://www.apache.org/licenses/LICENSE-2.0",
     install_requires = ["tornado>=4.3"],
     packages = ["ppmessage"],
-    author_email = 'dingguijin@gmail.com',
-    url = "https://www.ppmessage.com",
+    url = "http://www.ppmessage.com",
     keywords = "mqtt server ppmessage",
     description="A Python mqtt server, originally developed at PPMESSAGE.",
     classifiers=[

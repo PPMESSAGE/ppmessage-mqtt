@@ -2,3 +2,4 @@
 build
 dist
 ppmessage.egg-info
+ppmessage_mqtt.egg-info

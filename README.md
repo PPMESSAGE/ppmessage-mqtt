@@ -2,7 +2,7 @@
 Python mqtt server at PPMESSSAGE (http://www.ppmessage.com)
 
 # install
-pip install ppmessage-mqtt
+pip install ppmessage
 
 # test
 

@@ -8,7 +8,7 @@ pip install ppmessage-mqtt
 
 ## start server
 ```
-from ppmessage import mqtt_server
+from ppmessage_mqtt import mqtt_server
 from tornado.options import parse_command_line()
 
 if __name__ == "__main__":
@@ -17,7 +17,7 @@ if __name__ == "__main__":
     mqtt_server()
 ```
 
-## publish sth with paho-mqtt
+## client to publish message with paho-mqtt
 cd test
 pip install paho-mqtt
 

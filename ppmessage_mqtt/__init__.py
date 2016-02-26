@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2010-2016 YVertical, PPMESSAGE
-# Ding Guijin, guijin.ding@yvertical.com
+# Copyright (C) 2010-2016 YVertical, PPMessage
+# Ding Guijin, guijin.ding@ppmessage.com
 # Ning Ben, ben.ning@yvertical.com
 #
 # All rights reserved

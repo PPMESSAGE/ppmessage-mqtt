@@ -85,7 +85,7 @@ class sys_stat:
         self._sent_messages = 0
 
 
-class ppmt_msg_state:
+class yvmq_msg_state:
     invalid = 0
     wait_puback = 1
     wait_pubrec = 2
@@ -590,12 +590,12 @@ class ppmtdb(object):
 
         mid = context._out_mid
 
-        wait_state = ppmt_msg_state.invalid
+        wait_state = yvmq_msg_state.invalid
  
         if qos == 1:
-            wait_state = ppmt_msg_state.wait_puback
+            wait_state = yvmq_msg_state.wait_puback
         elif qos == 2:
-            wait_state = ppmt_msg_state.wait_pubrec
+            wait_state = yvmq_msg_state.wait_pubrec
         
         if wait_state:
 #           self.inc_in_flight_o()

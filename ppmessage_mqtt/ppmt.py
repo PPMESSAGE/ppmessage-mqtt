@@ -22,7 +22,7 @@ from .ppmtdb import worker
 from .ppmtdb import sender
 from .ppmtdb import ppmtdb
 from .ppmtdb import mqtt3_message
-from .ppmtdb import ppmt_msg_state
+from .ppmtdb import yvmq_msg_state
 
 #from .ppauth import authenticate
 from .yourauth import your_authenticate as authenticate

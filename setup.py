@@ -13,7 +13,7 @@ import os
 
 setup(
     name = "ppmessage-mqtt",
-    version = "1.0.6",
+    version = "1.0.7",
     author = "ppmessage.com",
     author_email = 'dingguijin@gmail.com',
     license = "http://www.apache.org/licenses/LICENSE-2.0",

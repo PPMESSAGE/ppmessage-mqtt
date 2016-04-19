@@ -114,7 +114,7 @@ def read_callback(function):
 
 class mqtt3context(object):
 
-    def __init__(self, stream, ppmtdb = gMQbase, auth=gAuth):
+    def __init__(self, stream, ppmtdb=gMQbase, auth=gAuth):
         self._ppmtdb = ppmtdb 
         self._stream = stream  
         self._auth = auth
@@ -883,3 +883,7 @@ def ppmt_main():
     _m = MQTTSrv()
     _m.ppmt_main()
 
+def ppmt_set_authenticate(_class):
+    global gAuth
+    gAuth = _class()
+    return

@@ -8,9 +8,15 @@
 #
 
 from .ppmt import ppmt_main
+from .ppmt import ppmt_set_authenticate
+from .ppauth import authenticate
 
 def mqtt_server():
     ppmt_main()
     return
 
-__version__ = "1.0.4"
+def mqtt_authenticate(_class):
+    ppmt_set_authenticate(_class)
+    return
+
+__version__ = "1.0.9"

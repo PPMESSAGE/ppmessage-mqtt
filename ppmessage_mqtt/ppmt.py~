@@ -13,12 +13,7 @@ import struct
 import logging
 import functools
 import threading
-
-try:
-    from Queue import Queue
-except:
-    from queue import Queue
-
+from Queue import Queue
 from tornado.web import Application
 from tornado.ioloop  import PollIOLoop
 from tornado.tcpserver import TCPServer

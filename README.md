@@ -25,7 +25,7 @@ cd test
 python test/main.py
 
 
-## overwrite antheticate
+## overwrite anthenticate
 ```
 from ppmessage_mqtt import authenticate
 from ppmessage_mqtt import mqtt_authenticate
